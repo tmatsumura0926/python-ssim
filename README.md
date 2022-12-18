@@ -10,11 +10,11 @@
 - 画素数が異なる場合はエラーを出します
 - 結果はCSVにも格納します
 
-python3 ssim-jpg.py aaa.jpg bbb.jpg
+> python3 ssim-jpg.py aaa.jpg bbb.jpg
 
 ### 動画を比較したい場合
 - pyフォルダに比較したい動画（aaa.mp4/bbb.mp4）を格納して以下のコマンドを実施してください
 - フレームレートや秒数が異なる場合はエラーを出します
 - 結果はCSVにも格納します
 
-python3 ssim-movie.py aaa.mp4 bbb.mp4
+> python3 ssim-movie.py aaa.mp4 bbb.mp4
