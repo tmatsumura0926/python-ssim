@@ -4,13 +4,13 @@ import cv2
 import sys
 import csv
 
-def AddGaussianNoise(image, mean, sigma):
-    noise = np.random.normal(mean, sigma, np.shape(image))
-    noisy_image = image + noise
-    noisy_image[noisy_image > 255] = 255
-    noisy_image[noisy_image < 0] = 0
-    noisy_image = noisy_image.astype(np.uint8)    # Float -> Uint
-    return noisy_image
+#def AddGaussianNoise(image, mean, sigma):
+#    noise = np.random.normal(mean, sigma, np.shape(image))
+#    noisy_image = image + noise
+#    noisy_image[noisy_image > 255] = 255
+#    noisy_image[noisy_image < 0] = 0
+#    noisy_image = noisy_image.astype(np.uint8)    # Float -> Uint
+#    return noisy_image
 
 # README
 
