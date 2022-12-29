@@ -12,7 +12,7 @@ def AddGaussianNoise(image, mean, sigma):
     return noisy_image
 
 
-# README
+# README!
 
 print("OpenCV Version: " + str(cv2.__version__))
 print("Start")
@@ -84,11 +84,11 @@ print("DstVideoCapture End!")
 
 
 # (DEBUG) Add Noise
-sigma = 5
-for i in range(count):
-    DstVideoImage = cv2.imread("./frameDstVideo/frame"+str(i)+".jpg", cv2.IMREAD_COLOR)
-    noisy_image = AddGaussianNoise(DstVideoImage, 0, sigma)
-    cv2.imwrite("frameDstVideo/frame"+str(i)+".jpg",noisy_image)
+#sigma = 5
+#for i in range(count):
+#    DstVideoImage = cv2.imread("./frameDstVideo/frame"+str(i)+".jpg", cv2.IMREAD_COLOR)
+#    noisy_image = AddGaussianNoise(DstVideoImage, 0, sigma)
+#    cv2.imwrite("frameDstVideo/frame"+str(i)+".jpg",noisy_image)
 
 
 # STEP4 SSIM Calculate
